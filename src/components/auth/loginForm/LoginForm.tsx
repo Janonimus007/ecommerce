@@ -52,7 +52,7 @@ export const LoginForm = () => {
       <Text style={styles.title}>Iniciar sesión</Text>
 
       <Input
-        placeholder="EJ: janonimus007"
+        placeholder="EJ: mor_2314"
         label="Nombre de usuario"
         value={formik.values.username}
         onChangeText={(value) => formik.setFieldValue("username", value)}

@@ -1,2 +1,2 @@
-export { ProductList } from "./products/productList/ProductList";
-export { ProductDetailScreen } from "./products/productDetail/ProductDetailScreen";
+export { ProductListScreen } from "./productList/ProductListScreen";
+export { ProductDetailScreen } from "./productDetail/ProductDetailScreen";

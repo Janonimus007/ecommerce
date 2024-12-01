@@ -6,8 +6,9 @@ import { LoginForm } from '../../../components/auth'
 export default function LoginScreen() {
   return (
     <View style={styles.container}>
-      <Text>LoginScreen</Text>
-      <LoginForm/>
+        <View>
+          <LoginForm/>          
+        </View>
     </View>
   )
 }
