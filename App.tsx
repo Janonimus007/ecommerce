@@ -1,10 +1,20 @@
 // import { NativeBaseProvider } from 'native-base';
-import MainNavigation from './src/routes/MainNavigation';
+import { Provider } from 'react-redux';
+import {MainNavigation} from './src/routes/MainNavigation';
+import { store } from './src/store/store';
+import Toast from 'react-native-toast-message';
+
 export default function App() {
   return (
-    // <NativeBaseProvider>
+    <>
+    <Provider store={store}>
       <MainNavigation />
-    // </NativeBaseProvider>
+        
+    </Provider>  
+ <Toast/>     
+    </>
+
   );
 }
+
 
