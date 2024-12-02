@@ -22,7 +22,7 @@
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/Janonimus007/product-app.git
+   git clone https://github.com/Janonimus007/ecommerce.git
    cd product-app
 2. Instala las dependencias:
 
